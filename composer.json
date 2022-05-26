@@ -1,0 +1,19 @@
+{
+    "name": "user/to-do-list-project",
+    "description": "A Simple ToDo List Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\ToDoListProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "farzad seyyedzadeh",
+            "email": "iamseyfarsey@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
