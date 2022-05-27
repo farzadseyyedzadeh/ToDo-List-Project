@@ -1,19 +1,14 @@
 {
-    "name": "user/to-do-list-project",
-    "description": "A Simple ToDo List Project",
+    "name": "loghman/7todo",
+    "description": "A Simple Todo List Project (With Ajax,Php and mysql)",
     "type": "project",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "User\\ToDoListProject\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "farzad seyyedzadeh",
-            "email": "iamseyfarsey@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Loghman Avand",
+        "email": "avand.loghman@gmail.com"
+    }],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "hekmatinasser/verta": "^1.10"
+    }
 }
