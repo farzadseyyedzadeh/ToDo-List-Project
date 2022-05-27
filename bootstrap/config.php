@@ -1,9 +1,7 @@
 <?php
-$database_config = [
-'host' => 'localhost',
-'user' => 'root',
-'pass' => '',
-'db' => 'ToDo-Project',
+$database_config = (object)[
+    'host' => 'localhost',
+    'user' => 'root',
+    'pass' => '',
+    'db' => 'todo'
 ];
-
-?>
