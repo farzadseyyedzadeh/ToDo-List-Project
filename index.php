@@ -6,7 +6,7 @@ if(isset($_GET['logout'])){
 }
 
 if(!isLoggedIn()){
-    // redirect to aut form
+    // redirect to auth form
     header("Location: " . site_url('auth.php'));
 }
 # user is LoggedIn
