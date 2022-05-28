@@ -19,9 +19,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         if(!$result){
             message("Error: email or password is Incorrect!");
         }else{
-            // message("You are now Logged In.<br>
-            // <a href='{$home_url}'>Manage Your Tasks</a>
-            // ",'success');
+             message("You are now Logged In.<br>
+             <a href='{$home_url}'>Manage Your Tasks</a>
+             ",'success');
             redirect(site_url());
         }
     }
