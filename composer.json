@@ -1,11 +1,11 @@
 {
-    "name": "loghman/7todo",
+    "name": "farzad/ToDo-List-Project",
     "description": "A Simple Todo List Project (With Ajax,Php and mysql)",
     "type": "project",
     "license": "MIT",
     "authors": [{
-        "name": "Loghman Avand",
-        "email": "avand.loghman@gmail.com"
+        "name": "farzad seyyedzadeh",
+        "email": "farzadseyyedzadeh@gmail.com"
     }],
     "minimum-stability": "stable",
     "require": {
