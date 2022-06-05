@@ -1,6 +1,5 @@
 <?php
 include "bootstrap/init.php";
-
 $home_url = site_url();
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $action = $_GET['action'];

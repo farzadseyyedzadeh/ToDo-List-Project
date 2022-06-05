@@ -1,15 +1,11 @@
 <?php
 include_once "../bootstrap/init.php";
-
 if(!isAjaxRequest()){
     diePage("Invalid Request!");
 }
-
 if(!isset($_POST['action']) || empty($_POST['action'])){
     diePage("Invalid Action!");
 }
-
-
 switch($_POST['action']){
     case "doneSwitch":
         $task_id = $_POST['taskId'];
@@ -39,7 +35,6 @@ switch($_POST['action']){
         }
         echo addTask($taskTitle,$folderId);
     break;
-
     default:
         diePage("Invalid Action!");
 }
