@@ -21,12 +21,8 @@ if(isset($_GET['delete_task']) && is_numeric($_GET['delete_task'])){
     $deletedCount = deleteTask($_GET['delete_task']);
     // echo "$deletedCount Tasks succesfully deleted!";
 }
-
-
 # connect to db and get tasks
 $folders = getFolders();
-
-
 $tasks = getTasks();
 
 include "tpl/tpl-index.php";
