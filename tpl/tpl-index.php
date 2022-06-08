@@ -6,7 +6,9 @@
   <link rel="stylesheet" href="<?=BASE_URL?>assets/css/style.css">
 
 </head>
+
 <body>
+
 <!-- partial:index.partial.html -->
 <div class="page">
   <div class="pageHeader">
@@ -23,6 +25,7 @@
           <input type="search" placeholder="Search"/>
         </div>
       </div>
+
       <div class="menu">
         <div class="title">Folders</div>
         <ul class="folder-list">
@@ -79,6 +82,7 @@
     </div>
   </div>
 </div>
+
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script  src="assets/js/script.js"></script>
