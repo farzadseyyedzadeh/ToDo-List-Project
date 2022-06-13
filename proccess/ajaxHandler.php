@@ -1,5 +1,6 @@
 <?php
 include_once "../bootstrap/init.php";
+
 if(!isAjaxRequest()){
     diePage("Invalid Request!");
 }
@@ -17,7 +18,7 @@ switch($_POST['action']){
     break;
     case "addFolder":
         if(!isset($_POST['folderName']) || strlen($_POST['folderName']) < 3){
-            echo "نام فولدر باید بزرگتر از 2 حرف باشد.";
+            echo "نام فولدر باید حداقل 2 حرف باشد.";
             die();
         }
         echo addFolder($_POST['folderName']);
